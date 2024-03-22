@@ -28,7 +28,7 @@ export const ProjectOrder = ({ open, handleOpenModal, handleClose }: IProjectOrd
           height={364}
           width={640}
           onClick={() => handleOpenModal('loustech')}
-          alt='projeto loustech'
+          alt='projeto ordem de serviço'
           src={'/img/order-service.jpg'}
           className=' cursor-pointer rounded-md max-h-[364px]'
         />

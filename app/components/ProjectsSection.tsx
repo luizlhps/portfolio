@@ -1,14 +1,6 @@
 'use client';
-import { SiNextdotjs, SiTypescript } from 'react-icons/si';
-import { FaNode } from 'react-icons/fa';
-import { Button } from './Bases';
-import { FaReact } from 'react-icons/fa';
 import { ProjectLoustech } from './Projects/ProjectLoustech';
-import { useState } from 'react';
-import Image from 'next/image';
 import { useModalManager } from '../hooks/use-modal-manager';
-import { SiMongodb } from 'react-icons/si';
-import { IoLogoFirebase } from 'react-icons/io5';
 import { ProjectOrder } from './Projects/ProjectOrder';
 import { ProjectHarmonize } from './Projects/ProjectHarmonize';
 
@@ -49,9 +41,9 @@ export const ProjectSection = () => {
           />
 
           <ProjectHarmonize
-            open={findModal('loustech')?.open ?? false}
-            handleClose={() => handleCloseModal('loustech')}
-            handleOpenModal={() => handleOpenModal('loustech')}
+            open={findModal('')?.open ?? false}
+            handleClose={() => handleCloseModal('')}
+            handleOpenModal={() => handleOpenModal('')}
           />
         </div>
       </section>

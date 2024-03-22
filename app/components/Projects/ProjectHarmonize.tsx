@@ -21,7 +21,7 @@ export const ProjectHarmonize = ({ open, handleClose, handleOpenModal }: IProjec
         <Image
           height={364}
           width={640}
-          alt='projeto loustech'
+          alt='projeto harmonize'
           src={'/img/harmonize.jpg'}
           className=' cursor-pointer rounded-md max-h-[364px]'
         />
