@@ -5,8 +5,6 @@ import { ButtonLink } from './Bases';
 import { DownloadCV } from './DownloadCV';
 
 export const HeroSection = () => {
-  const comp = useRef(null);
-
   return (
     <main className='flex flex-col  justify-center  items-center h-[87vh] sm:h-[760px]  max-[1036px]:justify-center '>
       <div

@@ -43,7 +43,7 @@ export const ProjectSection = () => {
           />
 
           <ProjectOrder
-            handleOpenModal={() => handleOpenModal('loustech')}
+            handleOpenModal={() => handleOpenModal('order')}
             open={findModal('order')?.open ?? false}
             handleClose={() => handleCloseModal('order')}
           />
