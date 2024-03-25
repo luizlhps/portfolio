@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export const ServicesSection = () => {
   return (
-    <section className='flex flex-col  justify-center  items-center  pt-36 pb-12  '>
+    <section className='overflow-hidden flex flex-col  justify-center  items-center  pt-36 pb-12  '>
       <div
         data-aos='fade-left'
         className='max-w-screen-xl w-full p-max-w-xl relative flex flex-col h-full justify-center   '
@@ -25,9 +25,7 @@ export const ServicesSection = () => {
               width={65}
             ></Image>
             <h4 className='text-xl sm:text-2xl uppercase font-black'>Desenvolvimento</h4>
-            <p className='text-text-gray'>
-              Desenho interface de forma que ela seja clara, objetiva e principalmente intuitiva para o usuário.
-            </p>
+            <p className='text-text-gray'>Desenvolvo aplicações front-end e back-end de forma escalável.</p>
           </div>
           <div className='w-full h-full p-8  min-h-[305px] bg-background-gray rounded-lg'>
             <Image src={'/img/paint-icon.svg'} alt='lapis desenhando' className='mb-4' height={65} width={65}></Image>
@@ -35,15 +33,12 @@ export const ServicesSection = () => {
             <p className='text-text-gray'>Desenho interface de forma que ela seja clara, objetiva</p>
           </div>
           <div className='w-full h-full p-8  min-h-[305px] bg-background-gray rounded-lg'>
-            <Image
-              src={'/img/search-mundy-icon.svg'}
-              alt='lapis desenhando'
-              className='mb-4'
-              height={65}
-              width={65}
-            ></Image>
-            <h4 className='text-xl sm:text-2xl uppercase font-black'>Desenvolvimento</h4>
-            <p className='text-text-gray'>Desenho interface de forma va e principalmente intuitiva para o usuário.</p>
+            <Image src={'/img/search-mundy-icon.svg'} alt='uma lupa ' className='mb-4' height={65} width={65}></Image>
+            <h4 className='text-xl sm:text-2xl uppercase font-black'>SEO</h4>
+            <p className='text-text-gray'>
+              Melhoro o ranking da sua empresa no Google para aumentar a visibilidade e atrair potenciais clientes,
+              tornando-a mais acessível e visível na plataforma.
+            </p>
           </div>
         </div>
         <ButtonLink href='https://wa.me//5512981635176' className='mt-12 px-10 max-sm:text-sm' target='_blank'>
